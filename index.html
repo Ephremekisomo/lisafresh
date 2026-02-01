@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Lisa Fresh Fair — Produits cosmétiques naturels, lotions capillaires revitalisantes pour tous types de cheveux." />
+  <title>Lisa Fresh Fair — Lotions capillaires naturelles</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <meta name="theme-color" content="#D8CABF">
+  <link rel="icon" href="assets/images/placeholder.svg" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Lisa Fresh Fair</a>
+      <nav class="main-nav" id="main-nav">
+        <a href="#produits">Produits</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Des lotions capillaires naturelles pour des cheveux sains et brillants</h1>
+          <p>Formulées avec des ingrédients doux, nos lotions renforcent, hydratent et protègent la fibre capillaire. Convient à tous types de cheveux.</p>
+          <a href="#produits" class="btn btn-primary">Voir les produits</a>
+        </div>
+        <div class="hero-image">
+          <picture>
+            <source srcset="assets/images/Produits/ensemble-des-produits-md.webp" type="image/webp">
+            <source srcset="assets/images/Produits/ensemble-des-produits-md.jpg" type="image/jpeg">
+            <img src="assets/images/Produits/ensemble-des-produits-sm.jpg" alt="Ensemble de produits Lisa Fresh Fair" loading="lazy">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section id="produits" class="products container">
+      <h2>Nos produits phares</h2>
+      <div class="product-grid">
+        <article class="product" data-sku="LFF-OIL-01">
+          <div class="product-media">
+            <picture>
+              <source srcset="assets/images/Produits/huile-capillaire-de-pousse-md.webp" type="image/webp">
+              <source srcset="assets/images/Produits/huile-capillaire-de-pousse-md.jpg" type="image/jpeg">
+              <img src="assets/images/Produits/huile-capillaire-de-pousse-sm.jpg" alt="Huile Capillaire — Revitalisante" loading="lazy">
+            </picture>
+          </div>
+          <h3>Huile Capillaire — Revitalisante</h3>
+          <p class="price">$5.00</p>
+          <p>Un mélange précieux d'huiles pour revitaliser et sublimer la chevelure.</p>
+          <div class="product-actions">
+            <button class="btn btn-primary btn-buy">Ajouter au panier</button>
+            <button class="btn btn-outline btn-view" data-image="assets/images/Produits/huile-capillaire-de-pousse-md.jpg" data-title="Huile Capillaire — Revitalisante" data-price="$5.00" data-desc="Un mélange précieux d’huiles soigneusement sélectionnées pour revitaliser, fortifier et sublimer vos cheveux. Un soin profond pour une chevelure soyeuse et éclatante.">Voir</button>
+          </div>
+        </article>
+
+        <article class="product" data-sku="LFF-POM-02">
+          <div class="product-media">
+            <picture>
+              <source srcset="assets/images/Produits/pommade-capillaire-md.webp" type="image/webp">
+              <source srcset="assets/images/Produits/pommade-capillaire-md.jpg" type="image/jpeg">
+              <img src="assets/images/Produits/pommade-capillaire-sm.jpg" alt="Pommade Capillaire — Nutrition Intense" loading="lazy">
+            </picture>
+          </div>
+          <h3>Pommade Capillaire — Nutrition Intense</h3>
+          <p class="price">$7.00</p>
+          <p>Texture riche pour discipliner et nourrir sans alourdir.</p>
+          <div class="product-actions">
+            <button class="btn btn-primary btn-buy">Ajouter au panier</button>
+            <button class="btn btn-outline btn-view" data-image="assets/images/Produits/pommade-capillaire-md.jpg" data-title="Pommade Capillaire — Nutrition Intense" data-price="$7.00" data-desc="Une pommade capillaire d’exception, conçue pour offrir élégance, tenue et brillance. Sa formule raffinée nourrit intensément les cheveux tout en assurant un coiffage impeccable, sans alourdir.">Voir</button>
+          </div>
+        </article>
+
+        <article class="product" data-sku="LFF-SHA-03">
+          <div class="product-media">
+            <picture>
+              <source srcset="assets/images/Produits/shampoing-md.webp" type="image/webp">
+              <source srcset="assets/images/Produits/shampoing-md.jpg" type="image/jpeg">
+              <img src="assets/images/Produits/shampoing-sm.jpg" alt="Shampooing Doux" loading="lazy">
+            </picture>
+          </div>
+          <h3>Shampooing Doux — Aloe & Protéines</h3>
+          <p class="price">$4.00</p>
+          <p>Nettoie en douceur tout en renforçant la fibre capillaire.</p>
+          <div class="product-actions">
+            <button class="btn btn-primary btn-buy">Ajouter au panier</button>
+            <button class="btn btn-outline btn-view" data-image="assets/images/Produits/shampoing-md.jpg" data-title="Shampooing Doux — Aloe & Protéines" data-price="$4.00" data-desc="Un shampoing haut de gamme qui nettoie délicatement tout en laissant les cheveux doux, légers et brillants. Une expérience sensorielle unique à chaque lavage. L’élégance commence sous la douche.">Voir</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="a-propos" class="about container">
+      <div class="about-grid">
+        <div class="about-content">
+          <h2>À propos de Lisa Fresh Fair</h2>
+          <p class="lead">Nous créons des soins capillaires premium — pommades, huiles et shampooings — conçus pour sublimer la beauté naturelle de vos cheveux.</p>
+
+          <p>Chaque produit est le fruit d’un savoir‑faire exigeant : ingrédients sélectionnés, formulations respectueuses et contrôles qualité stricts. Notre approche marie efficience et élégance pour offrir une expérience sensorielle et des résultats visibles.</p>
+
+          <div class="about-cards">
+            <div class="card">
+              <strong>Notre mission</strong>
+              <p>Offrir des soins performants, sûrs et respectueux de la nature pour révéler la beauté de chaque chevelure.</p>
+            </div>
+            <div class="card">
+              <strong>Nos valeurs</strong>
+              <p>Qualité, naturalité et responsabilité sociale et environnementale.</p>
+            </div>
+            <div class="card">
+              <strong>Savoir‑faire</strong>
+              <p>Des ingredients naturels pour un rituel capillaire d'exception.</p>
+            </div>
+          </div>
+
+          <div class="about-actions">
+            <a href="#produits" class="btn btn-primary">Voir nos produits</a>
+            <a href="https://wa.me/243833189272?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20vos%20produits." class="btn btn-outline">Contactez‑nous</a>
+          </div>
+
+          <ul class="features">
+            <li>🌱 Ingrédients naturels</li>
+            <li>🧪 Qualité </li>
+            <li>♻️ Emballages recyclables</li>
+          </ul>
+        </div>
+      </div>
+
+      <section id="temoignages" class="testimonials">
+        <h2>Témoignages</h2>
+        <div class="testi-slider">
+          <button class="testi-prev" aria-label="Précédent">‹</button>
+          <div class="testi-viewport">
+            <div class="testi-track">
+              <blockquote class="testi">
+                <picture>
+                  <source srcset="assets/images/temoignages/lydia-temoignage-md.webp" type="image/webp">
+                  <source srcset="assets/images/temoignages/lydia-temoignage-md.jpg" type="image/jpeg">
+                  <img src="assets/images/temoignages/lydia-temoignage-sm.jpg" alt="Témoignage Lydia" loading="lazy">
+                </picture>
+                <p>« Mes cheveux sont plus forts et ont retrouvé de la brillance après quelques semaines d'utilisation. »</p>
+                <cite>— Leoni</cite>
+              </blockquote>
+
+              <blockquote class="testi">
+                <picture>
+                  <source srcset="assets/images/temoignages/sylvie-temoignage-md.webp" type="image/webp">
+                  <source srcset="assets/images/temoignages/sylvie-temoignage-md.jpg" type="image/jpeg">
+                  <img src="assets/images/temoignages/sylvie-temoignage-sm.jpg" alt="Témoignage Sylvie" loading="lazy">
+                </picture>
+                <p>« Mes cheveux sont plus souples et brillants depuis que j'utilise les produits Lisa Fresh Fair. Un vrai plaisir quotidien ! »</p>
+                <cite>— jemimah</cite>
+              </blockquote>
+
+              <blockquote class="testi">
+                <picture>
+                  <source srcset="assets/images/temoignages/temoignage-md.webp" type="image/webp">
+                  <source srcset="assets/images/temoignages/temoignage-md.jpg" type="image/jpeg">
+                  <img src="assets/images/temoignages/temoignage-sm.jpg" alt="Témoignage client" loading="lazy">
+                </picture>
+                <p>« Produit naturel, résultat visible rapidement. Je recommande ! »</p>
+                <cite>— Welcome</cite>
+              </blockquote>
+
+              <blockquote class="testi">
+                <picture>
+                  <source srcset="assets/images/temoignages/temoignage-welcome-md.webp" type="image/webp">
+                  <source srcset="assets/images/temoignages/temoignage-welcome-md.jpg" type="image/jpeg">
+                  <img src="assets/images/temoignages/temoignage-welcome-sm.jpg" alt="Témoignage client 2" loading="lazy">
+                </picture>
+                <p>« Mes cheveux n'ont jamais été aussi doux — une vraie transformation. »</p>
+                <cite>— Priscillah</cite>
+              </blockquote>
+
+              <blockquote class="testi">
+                <picture>
+                  <source srcset="assets/images/temoignages/temoignages-md.webp" type="image/webp">
+                  <source srcset="assets/images/temoignages/temoignages-md.jpg" type="image/jpeg">
+                  <img src="assets/images/temoignages/temoignages-sm.jpg" alt="Témoignage client 3" loading="lazy">
+                </picture>
+                <p>« Service client réactif et produits de qualité — 5 étoiles. »</p>
+                <cite>— </cite>
+              </blockquote>
+            </div>
+          </div>
+          <button class="testi-next" aria-label="Suivant">›</button>
+          <div class="testi-dots" role="tablist" aria-label="Pagination témoignages"></div>
+        </div>
+      </section>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <p>Pour commandes, partenariats ou questions :
+        <a class="btn btn-whatsapp" href="https://wa.me/243833189272?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20vos%20produits." target="_blank" rel="noopener noreferrer" aria-label="Contacter sur WhatsApp">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false" fill="currentColor"><path d="M20.52 3.48A11.94 11.94 0 0012 .02 11.96 11.96 0 001 .8l1.4 5.15A11.93 11.93 0 0012 23.98c2.02 0 3.9-.5 5.6-1.45l4.12 1.1-1.1-4.06A11.96 11.96 0 0024 12 11.95 11.95 0 0020.52 3.48zM12 21.5a9.39 9.39 0 01-4.92-1.35l-.35-.21-3.12.83.83-3.05-.22-.34A9.37 9.37 0 012.5 12 9.5 9.5 0 1112 21.5zM17.06 14.17c-.28-.14-1.66-.82-1.92-.91-.26-.09-.45-.14-.64.14s-.73.91-.9 1.1c-.17.19-.34.21-.62.07-.27-.14-1.13-.42-2.15-1.35-.8-.7-1.34-1.57-1.49-1.84-.16-.27-.02-.42.12-.55.12-.12.28-.32.42-.48.14-.16.19-.27.28-.46.09-.18 0-.34-.05-.48-.06-.14-.64-1.6-.88-2.19-.23-.58-.46-.5-.63-.51h-.54c-.17 0-.45.06-.69.33-.24.28-.92.9-.92 2.2 0 1.3.94 2.56 1.07 2.74.13.18 1.85 3.03 4.49 4.25 3 .9 3.38.8 3.99.75.61-.05 1.97-.8 2.25-1.58.28-.78.28-1.45.2-1.58-.07-.13-.26-.2-.54-.34z"/></svg>
+          Contactez‑nous
+        </a>
+      </p>
+     
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Lisa Fresh Fair — entrprise</p>
+      <nav class="footer-nav">
+        <a href="#">Mentions légales</a>
+        <a href="#">Politique de confidentialité</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Modale produit -->
+  <div class="modal" id="product-modal" aria-hidden="true">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modal-close" aria-label="Fermer">×</button>
+      <div class="modal-media"><img src="" alt="" id="modal-image"></div>
+      <div class="modal-content">
+        <h3 id="modal-title"></h3>
+        <p id="modal-price" class="price"></p>
+        <p id="modal-desc"></p>
+        <div class="modal-actions">
+          <button class="btn btn-primary">Ajouter au panier</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast de confirmation d'ajout au panier -->
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true" hidden>
+    <p id="toast-message" class="toast-message">Produit ajouté au panier.</p>
+    <button id="toast-contact" class="btn btn-whatsapp" type="button">Contactez‑nous</button>
+    <button id="toast-close" class="btn btn-outline" aria-label="Fermer la notification" title="Fermer">✕</button>
+  </div>
+
+  <!-- Bouton contact flottant (WhatsApp) -->
+  <a href="https://wa.me/243833189272?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20vos%20produits." class="contact-floating" target="_blank" rel="noopener noreferrer" aria-label="Contactez-nous sur WhatsApp">💬</a>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

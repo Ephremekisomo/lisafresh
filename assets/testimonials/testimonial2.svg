@@ -1,0 +1,7 @@
+<!-- Placeholder testimonial image 2 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" rx="12" fill="#fff" stroke="#E8E8E8"/>
+  <circle cx="80" cy="80" r="48" fill="#F2A6B6"/>
+  <text x="80" y="95" font-family="Montserrat, Arial" font-size="24" fill="#fff" font-weight="700" text-anchor="middle">B</text>
+  <text x="140" y="220" font-family="Montserrat, Arial" font-size="16" fill="#7B7B7B">"Hydratation et brillance au rendez-vous."</text>
+</svg>
